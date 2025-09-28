@@ -1,0 +1,137 @@
+{
+  "model_info": {
+    "best_model": "LightGBM",
+    "model_type": "lightgbm.sklearn.LGBMClassifier",
+    "calibration_method": "isotonic",
+    "training_samples": 5527,
+    "test_samples": 1382,
+    "n_features": 103,
+    "class_balance": {
+      "non_uwbg": 0,
+      "uwbg": 2948,
+      "ratio": 0.0
+    }
+  },
+  "cross_validation_metrics": {
+    "auprc_mean": 0.9321981237370768,
+    "auprc_std": 0.006058130077548005,
+    "auroc_mean": 0.9396327729204588,
+    "auroc_std": 0.005837329349695369,
+    "f1_mean": 0.8469226283613539,
+    "f1_std": 0.00834907447150367
+  },
+  "test_metrics": {
+    "auprc": 0.9464860558512919,
+    "auroc": 0.9541268288578251,
+    "f1_score": 0.8657874321179209,
+    "precision": 0.8664596273291926,
+    "recall": 0.8651162790697674
+  },
+  "optimized_metrics": {
+    "threshold": 0.4232557379727191,
+    "precision": 0.8429394812680115,
+    "recall": 0.9069767441860465,
+    "f1_score": 0.8737864077669902,
+    "confusion_matrix": [
+      [
+        628,
+        109
+      ],
+      [
+        60,
+        585
+      ]
+    ]
+  },
+  "target_achievements": {
+    "min_auprc_target": 0.25,
+    "auprc_achieved": true,
+    "precision_90_target": 0.9,
+    "precision_90_achieved": true,
+    "precision_90_threshold": 0.5956408588158751,
+    "precision_90_recall": 0.8155038759689922
+  },
+  "feature_analysis": {
+    "top_5_features": [
+      {
+        "Feature": "media_pon_PeriodicColumn_upto18",
+        "Importance_Mean": 0.03374618848967914
+      },
+      {
+        "Feature": "media_pon_NumberUnfilledOrbitals",
+        "Importance_Mean": 0.015312593227112248
+      },
+      {
+        "Feature": "media_pon_PeriodicColumn",
+        "Importance_Mean": 0.013478679068132937
+      },
+      {
+        "Feature": "Unnamed: 0",
+        "Importance_Mean": 0.01100290000692381
+      },
+      {
+        "Feature": "media_PeriodicColumn",
+        "Importance_Mean": 0.0031960103558582253
+      }
+    ],
+    "n_important_features": 4,
+    "category_importance": {
+      "Structural": {
+        "avg_importance": 0.01100290000692381,
+        "max_importance": 0.01100290000692381,
+        "n_features": 1,
+        "top_feature": "Unnamed: 0"
+      },
+      "Electronegativity": {
+        "avg_importance": -9.373618711239207e-05,
+        "max_importance": 0.0005357842549216007,
+        "n_features": 6,
+        "top_feature": "desvio_pon_Electronegativity"
+      },
+      "IonizationPotential": {
+        "avg_importance": 0.00017303315384893753,
+        "max_importance": 0.0006112073868662082,
+        "n_features": 6,
+        "top_feature": "media_pon_IonizationPotential"
+      },
+      "ElectronAffinity": {
+        "avg_importance": 0.0006604641427195098,
+        "max_importance": 0.0011376203816625074,
+        "n_features": 6,
+        "top_feature": "media_pon_ElectronAffinity"
+      },
+      "Other_Atomic": {
+        "avg_importance": 0.00015841592581640013,
+        "max_importance": 0.0004964917624990961,
+        "n_features": 6,
+        "top_feature": "min_Valence"
+      }
+    }
+  },
+  "timestamp": "2025-09-28T17:57:47.233265",
+  "config_used": {
+    "data_paths": {
+      "main_dataset": "../data/processed/dataset_pbe_prototype_com_metais.csv",
+      "gw_dataset": "../data/processed/c2db_materials_gw_dataset.csv",
+      "features_only": "../data/processed/c2db_features_only.csv",
+      "atomic_table": "../data/raw/Schleder2019_AtomicTable.csv"
+    },
+    "model_params": {
+      "test_size": 0.2,
+      "cv_folds": 5,
+      "random_state": 42,
+      "metal_threshold": 0.1
+    },
+    "output_dirs": {
+      "models": "../models",
+      "artifacts": "../artifacts",
+      "predictions": "../predictions",
+      "figures": "../figures"
+    },
+    "metrics_targets": {
+      "min_auprc": 0.25,
+      "target_precision": 0.9,
+      "target_class": "metal"
+    }
+  }
+}

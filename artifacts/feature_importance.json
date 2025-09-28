@@ -1,0 +1,554 @@
+{
+  "feature_importance": [
+    {
+      "Feature": "media_pon_PeriodicColumn_upto18",
+      "Importance_Mean": 0.03374618848967914,
+      "Importance_Std": 0.0024255210851860894
+    },
+    {
+      "Feature": "media_pon_NumberUnfilledOrbitals",
+      "Importance_Mean": 0.015312593227112248,
+      "Importance_Std": 0.0018197349447118473
+    },
+    {
+      "Feature": "media_pon_PeriodicColumn",
+      "Importance_Mean": 0.013478679068132937,
+      "Importance_Std": 0.0019560343623205656
+    },
+    {
+      "Feature": "Unnamed: 0",
+      "Importance_Mean": 0.01100290000692381,
+      "Importance_Std": 0.001317667318823355
+    },
+    {
+      "Feature": "media_PeriodicColumn",
+      "Importance_Mean": 0.0031960103558582253,
+      "Importance_Std": 0.001046903497557073
+    },
+    {
+      "Feature": "desvio_pon_PeriodicColumn_upto18",
+      "Importance_Mean": 0.003131266888699391,
+      "Importance_Std": 0.0005206630338520002
+    },
+    {
+      "Feature": "desvio_pon_PeriodicColumn",
+      "Importance_Mean": 0.0028721344330271403,
+      "Importance_Std": 0.0006498708197454669
+    },
+    {
+      "Feature": "media_pon_LUMO",
+      "Importance_Mean": 0.002339329732311923,
+      "Importance_Std": 0.000900104927331722
+    },
+    {
+      "Feature": "desvio_PeriodicColumn_upto18",
+      "Importance_Mean": 0.0018343060307716597,
+      "Importance_Std": 0.0007803977111118444
+    },
+    {
+      "Feature": "media_NumberUnfilledOrbitals",
+      "Importance_Mean": 0.0017851114810699565,
+      "Importance_Std": 0.0003881947952704103
+    },
+    {
+      "Feature": "desvio_pon_NumberUnfilledOrbitals",
+      "Importance_Mean": 0.00163512300638331,
+      "Importance_Std": 0.0005822152977890357
+    },
+    {
+      "Feature": "media_PeriodicColumn_upto18",
+      "Importance_Mean": 0.001342487472154308,
+      "Importance_Std": 0.0002279658079574981
+    },
+    {
+      "Feature": "media_pon_r_s_orbital",
+      "Importance_Mean": 0.0012704296608428757,
+      "Importance_Std": 0.00030182564387616775
+    },
+    {
+      "Feature": "desvio_NumberUnfilledOrbitals",
+      "Importance_Mean": 0.0011675132846653113,
+      "Importance_Std": 0.000329268972810543
+    },
+    {
+      "Feature": "media_pon_ElectronAffinity",
+      "Importance_Mean": 0.0011376203816625074,
+      "Importance_Std": 0.0002798777163236705
+    },
+    {
+      "Feature": "min_Z",
+      "Importance_Mean": 0.0009842246044581282,
+      "Importance_Std": 0.0003671129493441199
+    },
+    {
+      "Feature": "max_ElectronAffinity",
+      "Importance_Mean": 0.000984205892301826,
+      "Importance_Std": 0.0009755801139444217
+    },
+    {
+      "Feature": "min_ElectronAffinity",
+      "Importance_Mean": 0.0009453561059284188,
+      "Importance_Std": 0.0002777247290660785
+    },
+    {
+      "Feature": "media_pon_IonizationPotential",
+      "Importance_Mean": 0.0006112073868662082,
+      "Importance_Std": 0.00037582035403404537
+    },
+    {
+      "Feature": "desvio_PeriodicColumn",
+      "Importance_Mean": 0.0005928375051668322,
+      "Importance_Std": 0.0005264128955415005
+    },
+    {
+      "Feature": "desvio_pon_Electronegativity",
+      "Importance_Mean": 0.0005357842549216007,
+      "Importance_Std": 0.0004268733162919379
+    },
+    {
+      "Feature": "max_r_p_orbital",
+      "Importance_Mean": 0.0005315468404901158,
+      "Importance_Std": 0.00028674210095698744
+    },
+    {
+      "Feature": "desvio_HOMO",
+      "Importance_Mean": 0.0005013832495221471,
+      "Importance_Std": 0.00028246707674222895
+    },
+    {
+      "Feature": "min_Valence",
+      "Importance_Mean": 0.0004964917624990961,
+      "Importance_Std": 0.00023075565582515858
+    },
+    {
+      "Feature": "max_IonizationPotential",
+      "Importance_Mean": 0.00047855658701377867,
+      "Importance_Std": 0.00026097911605023723
+    },
+    {
+      "Feature": "desvio_r_p_orbital",
+      "Importance_Mean": 0.000429315974663369,
+      "Importance_Std": 0.0002893782550746034
+    },
+    {
+      "Feature": "max_r_atomic_nonbonded",
+      "Importance_Mean": 0.0004253852951196069,
+      "Importance_Std": 0.0002507851426893968
+    },
+    {
+      "Feature": "desvio_pon_HOMO",
+      "Importance_Mean": 0.0004080275220084362,
+      "Importance_Std": 0.000143021635566399
+    },
+    {
+      "Feature": "min_LUMO",
+      "Importance_Mean": 0.0003950469579045102,
+      "Importance_Std": 0.0002916008492358707
+    },
+    {
+      "Feature": "desvio_ElectronAffinity",
+      "Importance_Mean": 0.0003884669340360358,
+      "Importance_Std": 0.0005670512568573968
+    },
+    {
+      "Feature": "min_HOMO",
+      "Importance_Mean": 0.00038518690170999956,
+      "Importance_Std": 0.00017700872812891804
+    },
+    {
+      "Feature": "desvio_pon_Polarizability",
+      "Importance_Mean": 0.0003358221498523051,
+      "Importance_Std": 0.00014895446778740576
+    },
+    {
+      "Feature": "desvio_r_s_orbital",
+      "Importance_Mean": 0.0003312460824289043,
+      "Importance_Std": 0.00028206671693860606
+    },
+    {
+      "Feature": "media_pon_Valence",
+      "Importance_Mean": 0.0003122675826743082,
+      "Importance_Std": 0.00020768918385639633
+    },
+    {
+      "Feature": "media_Polarizability",
+      "Importance_Mean": 0.00031134617071566507,
+      "Importance_Std": 0.0002535236920436424
+    },
+    {
+      "Feature": "media_pon_HOMO",
+      "Importance_Mean": 0.00030647972272977996,
+      "Importance_Std": 0.0002548205090842657
+    },
+    {
+      "Feature": "max_Electronegativity",
+      "Importance_Mean": 0.00029906107246302494,
+      "Importance_Std": 0.00022703160409601628
+    },
+    {
+      "Feature": "media_ElectronAffinity",
+      "Importance_Mean": 0.0002967483771252555,
+      "Importance_Std": 0.00024602664417635293
+    },
+    {
+      "Feature": "media_r_s_orbital",
+      "Importance_Mean": 0.00029210141701844214,
+      "Importance_Std": 0.00021011625971603524
+    },
+    {
+      "Feature": "max_r_covalent",
+      "Importance_Mean": 0.0002470483259059186,
+      "Importance_Std": 9.197471530117076e-05
+    },
+    {
+      "Feature": "media_pon_r_valence_lastorbital",
+      "Importance_Mean": 0.0002140550422401244,
+      "Importance_Std": 0.00021563852623465376
+    },
+    {
+      "Feature": "desvio_pon_ElectronAffinity",
+      "Importance_Mean": 0.00021038716526301516,
+      "Importance_Std": 0.0002520039218804791
+    },
+    {
+      "Feature": "max_PeriodicColumn",
+      "Importance_Mean": 0.000190630300607042,
+      "Importance_Std": 0.0005259481645833308
+    },
+    {
+      "Feature": "min_PeriodicColumn_upto18",
+      "Importance_Mean": 0.00018365223302276856,
+      "Importance_Std": 0.00016962515704785846
+    },
+    {
+      "Feature": "media_Valence",
+      "Importance_Mean": 0.00018109396534989885,
+      "Importance_Std": 0.00017387295498278273
+    },
+    {
+      "Feature": "desvio_pon_r_p_orbital",
+      "Importance_Mean": 0.000178310370150514,
+      "Importance_Std": 0.0002598167924534749
+    },
+    {
+      "Feature": "desvio_LUMO",
+      "Importance_Mean": 0.00017287221584779688,
+      "Importance_Std": 0.00015033145244925788
+    },
+    {
+      "Feature": "desvio_Polarizability",
+      "Importance_Mean": 0.00015919782903001112,
+      "Importance_Std": 0.0001449661745324405
+    },
+    {
+      "Feature": "desvio_IonizationPotential",
+      "Importance_Mean": 0.00014755184215073936,
+      "Importance_Std": 0.00020412540814966892
+    },
+    {
+      "Feature": "media_HOMO",
+      "Importance_Mean": 0.00013122481892386962,
+      "Importance_Std": 0.0001141641413382081
+    },
+    {
+      "Feature": "desvio_r_covalent",
+      "Importance_Mean": 0.00011258093774659805,
+      "Importance_Std": 0.00014359662753265942
+    },
+    {
+      "Feature": "max_r_s_orbital",
+      "Importance_Mean": 0.00010453200039606259,
+      "Importance_Std": 0.00011229699353075288
+    },
+    {
+      "Feature": "media_r_valence_lastorbital",
+      "Importance_Mean": 0.0001002620522871367,
+      "Importance_Std": 0.0002847609888956236
+    },
+    {
+      "Feature": "min_r_valence_lastorbital",
+      "Importance_Mean": 9.053470962272492e-05,
+      "Importance_Std": 0.00014485856173885567
+    },
+    {
+      "Feature": "media_pon_Polarizability",
+      "Importance_Mean": 8.22379397019346e-05,
+      "Importance_Std": 0.00035368055144423884
+    },
+    {
+      "Feature": "desvio_pon_Valence",
+      "Importance_Mean": 5.925493674995286e-05,
+      "Importance_Std": 0.00016981275521902193
+    },
+    {
+      "Feature": "media_r_d_orbital",
+      "Importance_Mean": 5.6858053257169416e-05,
+      "Importance_Std": 5.9531631665058966e-05
+    },
+    {
+      "Feature": "min_NumberUnfilledOrbitals",
+      "Importance_Mean": 4.234089513842632e-05,
+      "Importance_Std": 5.441630873265891e-05
+    },
+    {
+      "Feature": "media_IonizationPotential",
+      "Importance_Mean": 3.8646872204761705e-05,
+      "Importance_Std": 0.00039468326312649764
+    },
+    {
+      "Feature": "min_IonizationPotential",
+      "Importance_Mean": 3.242092237305538e-05,
+      "Importance_Std": 9.282917410377773e-05
+    },
+    {
+      "Feature": "media_pon_r_p_orbital",
+      "Importance_Mean": 2.6730277636877186e-05,
+      "Importance_Std": 0.00033492242048304755
+    },
+    {
+      "Feature": "min_r_s_orbital",
+      "Importance_Mean": 2.618860308196691e-05,
+      "Importance_Std": 0.00012701118626820857
+    },
+    {
+      "Feature": "max_NumberUnfilledOrbitals",
+      "Importance_Mean": 1.6694666924410574e-05,
+      "Importance_Std": 9.943948372127909e-05
+    },
+    {
+      "Feature": "media_pon_Z",
+      "Importance_Mean": 1.2111501596412388e-05,
+      "Importance_Std": 0.000318441448169857
+    },
+    {
+      "Feature": "desvio_r_d_orbital",
+      "Importance_Mean": 8.954663069926649e-06,
+      "Importance_Std": 0.0001138447941231698
+    },
+    {
+      "Feature": "desvio_pon_r_valence_lastorbital",
+      "Importance_Mean": 8.101691847384184e-06,
+      "Importance_Std": 0.0003139949242833098
+    },
+    {
+      "Feature": "min_r_p_orbital",
+      "Importance_Mean": -2.4123621870097978e-06,
+      "Importance_Std": 0.00032649813734314016
+    },
+    {
+      "Feature": "media_r_covalent",
+      "Importance_Mean": -3.1092230282525614e-06,
+      "Importance_Std": 0.00014663467944780355
+    },
+    {
+      "Feature": "min_r_covalent",
+      "Importance_Mean": -7.132867635006867e-06,
+      "Importance_Std": 1.1188937000692507e-05
+    },
+    {
+      "Feature": "max_Polarizability",
+      "Importance_Mean": -9.122603683864306e-06,
+      "Importance_Std": 4.88509244539598e-05
+    },
+    {
+      "Feature": "max_PeriodicColumn_upto18",
+      "Importance_Mean": -1.5614209695102855e-05,
+      "Importance_Std": 2.5039319158514872e-05
+    },
+    {
+      "Feature": "max_Valence",
+      "Importance_Mean": -1.597620421468493e-05,
+      "Importance_Std": 5.318668967272812e-05
+    },
+    {
+      "Feature": "min_Polarizability",
+      "Importance_Mean": -1.7256280041300088e-05,
+      "Importance_Std": 2.2997146941053922e-05
+    },
+    {
+      "Feature": "max_LUMO",
+      "Importance_Mean": -1.753607820957903e-05,
+      "Importance_Std": 0.00019143957089639207
+    },
+    {
+      "Feature": "media_Z",
+      "Importance_Mean": -1.7673346159408075e-05,
+      "Importance_Std": 0.00011816894398311822
+    },
+    {
+      "Feature": "desvio_pon_r_covalent",
+      "Importance_Mean": -1.902225014683845e-05,
+      "Importance_Std": 0.00017073893294589364
+    },
+    {
+      "Feature": "desvio_pon_r_s_orbital",
+      "Importance_Mean": -2.0768475577814805e-05,
+      "Importance_Std": 0.00015376075306415733
+    },
+    {
+      "Feature": "max_Z",
+      "Importance_Mean": -2.6410640589413782e-05,
+      "Importance_Std": 0.00014603316487967193
+    },
+    {
+      "Feature": "max_r_valence_lastorbital",
+      "Importance_Mean": -2.8592594976450947e-05,
+      "Importance_Std": 0.000378507341276924
+    },
+    {
+      "Feature": "media_pon_r_d_orbital",
+      "Importance_Mean": -3.898186830456618e-05,
+      "Importance_Std": 0.000190884352273153
+    },
+    {
+      "Feature": "min_r_atomic_nonbonded",
+      "Importance_Mean": -4.945549877265476e-05,
+      "Importance_Std": 2.3887872508959847e-05
+    },
+    {
+      "Feature": "media_pon_r_covalent",
+      "Importance_Mean": -5.136924633052376e-05,
+      "Importance_Std": 0.00017501426009534817
+    },
+    {
+      "Feature": "desvio_Z",
+      "Importance_Mean": -5.2862658208874255e-05,
+      "Importance_Std": 0.00023358581053229698
+    },
+    {
+      "Feature": "max_HOMO",
+      "Importance_Mean": -7.03314292187951e-05,
+      "Importance_Std": 0.00034835426833900753
+    },
+    {
+      "Feature": "desvio_Valence",
+      "Importance_Mean": -8.263648816017043e-05,
+      "Importance_Std": 0.00018239690811899746
+    },
+    {
+      "Feature": "min_PeriodicColumn",
+      "Importance_Mean": -0.00010116323539882677,
+      "Importance_Std": 5.369997621105277e-05
+    },
+    {
+      "Feature": "desvio_r_valence_lastorbital",
+      "Importance_Mean": -0.00010666993249383027,
+      "Importance_Std": 0.00016258889881731918
+    },
+    {
+      "Feature": "min_r_d_orbital",
+      "Importance_Mean": -0.00010685191592468835,
+      "Importance_Std": 7.253334873129573e-05
+    },
+    {
+      "Feature": "media_r_atomic_nonbonded",
+      "Importance_Mean": -0.00011028564920846362,
+      "Importance_Std": 0.0002683102308946406
+    },
+    {
+      "Feature": "desvio_pon_Z",
+      "Importance_Mean": -0.00011536990052157803,
+      "Importance_Std": 0.00020217886953046387
+    },
+    {
+      "Feature": "desvio_pon_LUMO",
+      "Importance_Mean": -0.00013532934605702262,
+      "Importance_Std": 0.00017302722737048943
+    },
+    {
+      "Feature": "max_r_d_orbital",
+      "Importance_Mean": -0.00014029925915745033,
+      "Importance_Std": 0.00019832885593249196
+    },
+    {
+      "Feature": "media_r_p_orbital",
+      "Importance_Mean": -0.00016993909682111452,
+      "Importance_Std": 0.00017583813269132924
+    },
+    {
+      "Feature": "desvio_r_atomic_nonbonded",
+      "Importance_Mean": -0.00017780713577978391,
+      "Importance_Std": 0.00016142513127306653
+    },
+    {
+      "Feature": "min_Electronegativity",
+      "Importance_Mean": -0.00018639733172207685,
+      "Importance_Std": 0.00024558813115312035
+    },
+    {
+      "Feature": "desvio_pon_r_atomic_nonbonded",
+      "Importance_Mean": -0.00021511013737937068,
+      "Importance_Std": 0.00017157075590576817
+    },
+    {
+      "Feature": "media_pon_r_atomic_nonbonded",
+      "Importance_Mean": -0.00022158158222547187,
+      "Importance_Std": 0.00019779399865072647
+    },
+    {
+      "Feature": "media_LUMO",
+      "Importance_Mean": -0.00022712240898582482,
+      "Importance_Std": 0.00024070759746545038
+    },
+    {
+      "Feature": "desvio_pon_IonizationPotential",
+      "Importance_Mean": -0.0002701846875149183,
+      "Importance_Std": 0.00011404253748691552
+    },
+    {
+      "Feature": "media_pon_Electronegativity",
+      "Importance_Mean": -0.00028295748047759697,
+      "Importance_Std": 0.000179942427805543
+    },
+    {
+      "Feature": "desvio_pon_r_d_orbital",
+      "Importance_Mean": -0.0002887495673184359,
+      "Importance_Std": 0.00021514304109729147
+    },
+    {
+      "Feature": "media_Electronegativity",
+      "Importance_Mean": -0.0003954012905828308,
+      "Importance_Std": 0.00044577072131848043
+    },
+    {
+      "Feature": "desvio_Electronegativity",
+      "Importance_Mean": -0.0005325063472764735,
+      "Importance_Std": 0.00020832095217233237
+    }
+  ],
+  "category_analysis": {
+    "Structural": {
+      "avg_importance": 0.01100290000692381,
+      "max_importance": 0.01100290000692381,
+      "n_features": 1,
+      "top_feature": "Unnamed: 0"
+    },
+    "Electronegativity": {
+      "avg_importance": -9.373618711239207e-05,
+      "max_importance": 0.0005357842549216007,
+      "n_features": 6,
+      "top_feature": "desvio_pon_Electronegativity"
+    },
+    "IonizationPotential": {
+      "avg_importance": 0.00017303315384893753,
+      "max_importance": 0.0006112073868662082,
+      "n_features": 6,
+      "top_feature": "media_pon_IonizationPotential"
+    },
+    "ElectronAffinity": {
+      "avg_importance": 0.0006604641427195098,
+      "max_importance": 0.0011376203816625074,
+      "n_features": 6,
+      "top_feature": "media_pon_ElectronAffinity"
+    },
+    "Other_Atomic": {
+      "avg_importance": 0.00015841592581640013,
+      "max_importance": 0.0004964917624990961,
+      "n_features": 6,
+      "top_feature": "min_Valence"
+    }
+  },
+  "model_used": "LightGBM",
+  "scoring_metric": "average_precision",
+  "n_repeats": 10
+}

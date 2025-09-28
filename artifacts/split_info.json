@@ -1,0 +1,57 @@
+{
+  "total_samples": 6909,
+  "train_samples": 5527,
+  "test_samples": 1382,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "random_state": 42,
+  "class_distribution_train": {
+    "1": 2948,
+    "-1": 2579
+  },
+  "class_distribution_test": {
+    "1": 737,
+    "-1": 645
+  },
+  "class_weights": {
+    "-1": 1.0715393563396665,
+    "1": 0.937415196743555
+  },
+  "fold_distributions": [
+    {
+      "fold": 1,
+      "train_size": 4421,
+      "val_size": 1106,
+      "train_metal_pct": 46.663650757747114,
+      "val_metal_pct": 46.65461121157324
+    },
+    {
+      "fold": 2,
+      "train_size": 4421,
+      "val_size": 1106,
+      "train_metal_pct": 46.663650757747114,
+      "val_metal_pct": 46.65461121157324
+    },
+    {
+      "fold": 3,
+      "train_size": 4422,
+      "val_size": 1105,
+      "train_metal_pct": 46.675712347354136,
+      "val_metal_pct": 46.60633484162896
+    },
+    {
+      "fold": 4,
+      "train_size": 4422,
+      "val_size": 1105,
+      "train_metal_pct": 46.65309814563546,
+      "val_metal_pct": 46.69683257918552
+    },
+    {
+      "fold": 5,
+      "train_size": 4422,
+      "val_size": 1105,
+      "train_metal_pct": 46.65309814563546,
+      "val_metal_pct": 46.69683257918552
+    }
+  ]
+}
